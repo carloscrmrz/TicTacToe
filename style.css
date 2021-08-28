@@ -1,0 +1,28 @@
+body {
+  font-family: 'Lato', sans-serif;
+  color: white;
+  font-size: 16px;
+  background: #212121;
+}
+
+.game-board {
+  display: grid;
+  grid-template-columns: 10rem 10rem 10rem;
+  grid-template-rows: 10rem 10rem 10rem;
+  grid-gap: 0;
+  border: solid black;
+  width: 30rem;
+}
+
+.square {
+  color: white;
+  font-size: 8rem;
+  font-weight: 300;
+  width: 10rem;
+  height: 10rem;
+  border: dotted black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
